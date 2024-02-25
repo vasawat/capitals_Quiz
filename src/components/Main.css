@@ -1,0 +1,41 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainBox {
+  color: rgb(0, 0, 0);
+  background-color: rgb(237, 237, 237);
+  padding: 60px 80px;
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px;
+}
+.textHead {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-size: 50px;
+}
+.input {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.btn {
+  font-size: 20px;
+}
+.pointBox {
+  color: rgb(0, 0, 0);
+  background-color: rgb(237, 237, 237);
+  padding: 20px 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+}
