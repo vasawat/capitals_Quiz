@@ -9,7 +9,9 @@ export default function Main() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api");
+        const response = await fetch(
+          "https://capitals-quiz-backend.onrender.com/api"
+        );
         const data = await response.json();
         setBackendData(data);
       } catch (error) {
