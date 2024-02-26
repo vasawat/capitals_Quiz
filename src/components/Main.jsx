@@ -5,6 +5,7 @@ export default function Main() {
   const [count, setCount] = useState(0);
   const [backendData, setBackendData] = useState([{}]);
   const [question, setQuestion] = useState({});
+  const [showAnswer,setShowAnswer] = useState(false)
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -45,8 +46,13 @@ export default function Main() {
     <div className="wrap">
       <div className="mainBox">
         <p className="textHead">Capitals Quiz</p>
-        <span>{question.flag}</span>
-        <p>answer = {question.name}</p>
+        <div className="flagBox">
+          <img className="flag" src={question.flag} alt="" />
+          <div className="answerBox">
+            <button className="btn " onClick={()=>setShowAnswer(!showAnswer)}>Answer</button>
+            {showAnswer ? <p className="answer">answer = {question.name}</p>:<></>}
+          </div>
+        </div>
         <form onSubmit={checkAnswer}>
           <input
             className="input"

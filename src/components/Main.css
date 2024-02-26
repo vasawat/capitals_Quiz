@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Micro+5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Micro+5&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
 .wrap {
   display: flex;
   justify-content: center;
@@ -7,23 +10,60 @@
 .mainBox {
   color: rgb(0, 0, 0);
   background-color: rgb(237, 237, 237);
-  padding: 60px 80px;
+  padding: 50px 80px;
   border: 2px solid;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px;
+  text-align: center;
+}
+.flag {
+  width: 250px;
+  height: auto;
+}
+.flagBox {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.answerBox {
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
+}
+.answerbtn {
+  margin-right: 38px;
+}
+.answer {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .textHead {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 0;
-  font-size: 50px;
+  font-size: 80px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
 }
 .input {
   font-size: 20px;
   margin-right: 10px;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 7px 10px;
 }
 .btn {
   font-size: 20px;
+  padding: 7px 10px;
+  background-color: rgb(245, 205, 95);
+  border-radius: 3px;
+}
+.btn:hover {
+  background-color: rgb(248, 197, 57);
 }
 .pointBox {
   color: rgb(0, 0, 0);
@@ -37,5 +77,10 @@
   top: 0;
   margin-top: 10px;
   margin-right: 10px;
-  font-size: 30px;
+  font-size: 50px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
 }
