@@ -10,6 +10,7 @@ export default function Main() {
     const fetchData = async () => {
       try {
         const response = await fetch(
+          // "http://localhost:5000/api"
           "https://capitals-quiz-backend.onrender.com/api"
         );
         const data = await response.json();
@@ -47,7 +48,7 @@ export default function Main() {
   return (
     <div className="wrap">
       <div className="mainBox">
-        <p className="textHead">Capitals Quiz</p>
+        <p className="textHead">Country Quiz</p>
         <div className="flagBox">
           <img className="flag" src={question.flag} alt="" />
           <div className="answerBox">
