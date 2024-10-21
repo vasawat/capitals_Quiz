@@ -1,7 +1,7 @@
 {
   "name": "abc",
   "version": "0.1.0",
-  "proxy": "https://capitals-quiz-backend.onrender.com/",
+  "proxy": "https://capitalsquizbackend-production.up.railway.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

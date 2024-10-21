@@ -11,7 +11,8 @@ export default function Main() {
       try {
         const response = await fetch(
           // "http://localhost:5000/api"
-          "https://capitals-quiz-backend.onrender.com/api"
+          // "https://capitals-quiz-backend.onrender.com/api"
+          "https://capitalsquizbackend-production.up.railway.app/api"
         );
         const data = await response.json();
         setBackendData(data);
